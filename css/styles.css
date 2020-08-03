@@ -1,0 +1,27 @@
+.dropdown-toggle{
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Fredoka One', cursive;
+}
+
+
+.row1{
+	padding: 2em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.info-block{
+	background-color: red;
+	border: 1px solid;
+	text-align: center;
+	max-width: 15em;
+}
+
+.info-block a{
+	align-items: flex-end;
+}
+
+hr{
+	width: 80%;
+}

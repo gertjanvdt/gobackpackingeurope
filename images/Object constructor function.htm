@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- saved from url=(0106)file:///Users/gertjan/Downloads/javascript%20starter%20files/30.Object%20constructor%20function/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Object constructor function</title>
+</head>
+<body>
+
+
+  <script>
+
+    function Charracter (first, last, color, image){
+      this.firstName = first;
+      this.lastName = last;
+      this.color = color;
+      this.image = image;
+    };
+
+    var mickey = new Charracter('Mickey', 'Mouse', ['red', 'yellow', 'black'], 'mickey-mouse.png');
+
+    var duffey = new Charracter('Daffy', 'Duck', ['black', 'orange'], 'daffy-duck.png');
+
+    var bugs = new Charracter('Bugs', 'Bunny', ['grey', 'white'], 'bugs-bunny.png');
+
+    console.log(bugs.lastName);
+  
+  </script>
+
+</body></html>
